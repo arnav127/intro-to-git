@@ -1,2 +1,3 @@
-# intro-to-git
-A simple introduction to Git, the Version Management System
+# Introduction to Git
+
+A simple introduction to Git, the Version Control Management System

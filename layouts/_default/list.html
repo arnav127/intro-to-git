@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<hr>
+{{ $pages := .Pages }}
+<div class="gallery">
+    {{ range $pages }}
+    <div class="profile">
+        <img src="https://www.gravatar.com/avatar/{{ .Params.email | md5 }}" alt="Arnav Dixit">
+        {{ .Params.name }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
